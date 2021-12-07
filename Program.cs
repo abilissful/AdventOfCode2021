@@ -4,6 +4,6 @@ var dayOne = new DayOne();
 // Console.WriteLine(dayOne.GetIncreasingDepthCount());
 // Console.WriteLine(dayOne.GetSlidingIncreasingDepthCount());
 
-var dayTwo = new DayTwo();
-// Console.WriteLine(dayTwo.GetCompositePosition());
-Console.WriteLine(dayTwo.GetCompositeAimPosition());
+var submarine = new Submarine();
+// Console.WriteLine(submarine.GetCompositePosition(Parse.StringIntegerCommands(input.DayTwo)));
+Console.WriteLine(submarine.GetCompositeAimPosition(Parse.StringIntegerCommands(input.DayTwo)));

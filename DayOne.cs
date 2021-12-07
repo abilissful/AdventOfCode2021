@@ -4,7 +4,7 @@ public class DayOne
     public int GetIncreasingDepthCount()
     {
         var countOfIncreases = 0;
-        var measurements = Shared.ParseIntegerInput(input).ToList();
+        var measurements = Parse.IntegerList(input).ToList();
 
         for (int i = 0; i < measurements.Count(); i++)
         {
@@ -22,7 +22,7 @@ public class DayOne
     public int GetSlidingIncreasingDepthCount()
     {
         var countOfIncreases = 0;
-        var measurements = Shared.ParseIntegerInput(input).ToList();
+        var measurements = Parse.IntegerList(input).ToList();
 
         var previousWindow = 0;
         var currentWindow = 0;
