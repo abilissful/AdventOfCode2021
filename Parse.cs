@@ -20,6 +20,11 @@ public static class Parse
         return numbers;
     }
 
+    public static IEnumerable<string> StringList(string input)
+    {
+        return input.Split(Environment.NewLine).ToList(); 
+    }
+
     public static List<Command> StringIntegerCommands(string input)
     {
         var asStrings = input.Split(Environment.NewLine);

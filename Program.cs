@@ -6,4 +6,7 @@ var dayOne = new DayOne();
 
 var submarine = new Submarine();
 // Console.WriteLine(submarine.GetCompositePosition(Parse.StringIntegerCommands(input.DayTwo)));
-Console.WriteLine(submarine.GetCompositeAimPosition(Parse.StringIntegerCommands(input.DayTwo)));
+//Console.WriteLine(submarine.GetCompositeAimPosition(Parse.StringIntegerCommands(input.DayTwo)));
+
+var dayThree = new DayThree();
+Console.WriteLine(dayThree.GetPowerConsumption(Parse.StringList(input.dayThree)));
